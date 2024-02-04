@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'eventhub.wsgi.application'
+WSGI_APPLICATION = 'eventhub.wsgi.app'
 
 
 # Database
