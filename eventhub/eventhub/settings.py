@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-03l%e-+dlnama!+wxa4jnkd*_*0qvrp-#bc=*6^qw_k%(^^klh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -79,12 +79,8 @@ WSGI_APPLICATION = 'eventhub.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'eventhub',
-        'USER': 'root',
-        'PASSWORD': 'localhost123',
-        'HOST': 'localhost',
-        'PORT': 3306
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / "db.sqlite3",
     }
 }
 
