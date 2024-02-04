@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app',
+    'django_adminlte',
+    'django_adminlte_theme',
+    'localflavor'
 ]
 
 MIDDLEWARE = [
@@ -84,6 +88,10 @@ DATABASES = {
     }
 }
 
+# Database data production:
+# Database host address:jhonozorio.mysql.pythonanywhere-services.com
+# Username:jhonozorio
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -107,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-BR'
 
 TIME_ZONE = 'UTC'
 
