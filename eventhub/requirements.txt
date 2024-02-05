@@ -7,3 +7,4 @@ python-stdnum==1.19
 pytz==2024.1
 sqlparse==0.4.4
 tzdata==2023.4
+pysqlite3-binary==0.4.6
