@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'eventhub.wsgi.app'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / "db.sqlite3",
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': '2Bcc6D6BBGf54-afA4CdfF*DGBggFBF1',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '48094',
     }
 }
 

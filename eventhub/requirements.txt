@@ -3,8 +3,9 @@ Django==3.2.10
 django-adminlte2==0.4.3
 django-adminlte3==0.1.6
 django-localflavor==4.0
+mysqlclient==2.2.1
+psycopg2-binary==2.9.9
 python-stdnum==1.19
 pytz==2024.1
 sqlparse==0.4.4
 tzdata==2023.4
-pysqlite3-binary==0.4.6
